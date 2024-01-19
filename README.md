@@ -1,50 +1,35 @@
-# 📌 PreEntrega1-Scharff
+# Proyecto final de carrera Coder House: Carrera de Desarrollo Frontend React
 
-### Consigna
+## ENTREGA DEL PROYECTO FINAL
 
-- Crea un componente CartWidget con un ícono y una notificación mostrando un número hardcodeado (fijo). Este servirá luego para indicar la cantidad de elementos que tenemos en el carrito, pero por ahora, mostrará un número hardcodeado (colocado en el código). Ubica este componente (CartWidget) dentro de Navbar.. Agrega algunos estilos con Tailwind, Materialize u otro.
-- Crea un componente contenedor ItemListContainer.js con una prop greeting, y muestra el mensaje dentro del contenedor con el styling integrado.
+**Formato:** [Link al repositorio de Git](url_del_repositorio) donde se cumplan los objetivos + GIF/Video mostrando la navegabilidad y los flujos básicos de la aplicación y aquellos considerados importantes por el alumno/a.
 
-### Objetivo
+## Introducción
 
-- Crear la landing de tu proyecto.
+El proyecto final de mi curso de Desarrollo Frontend en Coder House es la culminación de seis meses de aprendizaje intensivo, abarcando desde los fundamentos del desarrollo web con HTML y CSS hasta el dominio de JavaScript y React. En este proyecto, he aplicado de manera práctica todos estos conocimientos al desarrollar una aplicación de e-commerce. Mi enfoque se centra en la creación de una interfaz de usuario dinámica y eficiente, utilizando las capacidades de React para gestionar estados, eventos y construir componentes reutilizables. Este proyecto no solo representa el cierre exitoso de mi formación en Coder House, sino también un testimonio tangible de mi progreso como desarrollador frontend. ¡Bienvenido a explorar este proyecto que encapsula mi viaje de aprendizaje!
 
-### Se debe entregar.
+## Consigna
 
-- Crea un componente **CartWidget.js** que haga rendering de un ícono Cart, e inclúyelo dentro de NavBar.js para que esté visible en todo momento.
-- Crea un componente **ItemListContainer**. Impórtalo dentro de App.js, y abajo de NavBar.js.
+Desarrollarás una aplicación de e-commerce para la venta de productos de un rubro a elección.
 
-# 📌 Segunda pre-entrega
+## Se debe entregar
 
-### Consigna
+- **NavBar:** Barra de navegación principal.
+- **CartWidget:** Widget del carrito de compras.
+- **ItemListContainer:** Contenedor de la lista de productos.
+- **ItemList:** Lista de productos.
+- **ItemDetailContainer:** Contenedor del detalle de producto.
+- **ItemDetail:**
+  - **ItemQuantitySelector:** Selector de cantidad de productos.
+  - **Description:** Descripción del producto.
+  - **AddItemButton:** Botón para agregar el producto al carrito.
+- **Checkout:**
+  - **Brief:** Detalle de la compra.
 
-- Configura en App.js el routing usando un BrowserRouter de tu aplicación con react-router-dom
-- Componentes:
-  - Navbar con cart
-  - Catálogo
-  - Detalle de producto
+## Tecnologías Utilizadas
 
-### Objetivos.
+Descripción de las tecnologías, lenguajes de programación, y herramientas utilizadas en el desarrollo.
 
-- Deberás desarrollar la navegabilidad básica de la aplicación, demostrando que la app permite ver el catálogo, y navegar a un detalle.
+## Pasos de Instalación
 
-### Se debe entregar.
-
-- Rutas a configurar
-
-  - ‘/’ navega a <ItemListContainer />
-  - ‘/category/:id’ <ItemListContainer />
-  - ‘/item/:id’ navega a <ItemDetailContainer />
-
-- Links a configurar
-  - Clickear en el brand debe navegar a ‘/’
-  - Clickear un Item.js debe navegar a /item/:id
-  - Clickear en una categoría del navbar debe navegar a /category/:categoryId
-
-Para finalizar deberá integrar los parámetros de tus async-mocks para reaccionar a :itemId y :categoryId ¡utilizando efectos y los hooks de parámetros que vimos en clase! Si te encuentras en una categoría deberías poder detectar la navegación a otra categoría y volver a cargar los productos que correspondan a dicha categoría.
-
-> 🗒️Notas:
->
-> - No usar HashRouter como en el ejemplo del gif (usar BrowserRouter)
-> - Utilizar el id de la categoría como nombre en la URL param en vez de números (vehículos, por ej)
-> - Utilizar el id del item como URL param
+Instrucciones detalladas sobre cómo instalar y ejecutar la aplicación localmente.

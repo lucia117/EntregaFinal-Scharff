@@ -1,0 +1,198 @@
+[
+  {
+    "nombre": "Zapatillas de running",
+    "descripcion": "Zapatillas diseñadas para correr largas distancias con comodidad y soporte.",
+    "categoria": "Calzado deportivo",
+    "precio": 4500,
+    "stock": 20
+  },
+  {
+    "nombre": "Camiseta de entrenamiento",
+    "descripcion": "Camiseta transpirable ideal para sesiones intensas de entrenamiento.",
+    "categoria": "Ropa deportiva",
+    "precio": 1200,
+    "stock": 15
+  },
+  {
+    "nombre": "Balón de fútbol",
+    "descripcion": "Balón oficial de tamaño reglamentario para partidos de fútbol.",
+    "categoria": "Equipamiento deportivo",
+    "precio": 800,
+    "stock": 25
+  },
+  {
+    "nombre": "Raqueta de tenis",
+    "descripcion": "Raqueta ligera y resistente para jugadores de tenis de todos los niveles.",
+    "categoria": "Tenis",
+    "precio": 2500,
+    "stock": 10
+  },
+  {
+    "nombre": "Mochila para deportes",
+    "descripcion": "Mochila espaciosa con compartimentos para llevar tus pertenencias mientras practicas deporte.",
+    "categoria": "Accesorios",
+    "precio": 1800,
+    "stock": 18
+  },
+  {
+    "nombre": "Gorra deportiva",
+    "descripcion": "Gorra ajustable y transpirable para protegerte del sol durante tus actividades al aire libre.",
+    "categoria": "Accesorios",
+    "precio": 700,
+    "stock": 30
+  },
+  {
+    "nombre": "Bicicleta de montaña",
+    "descripcion": "Bicicleta diseñada para terrenos off-road, con suspensión y cambios de velocidad.",
+    "categoria": "Ciclismo",
+    "precio": 15000,
+    "stock": 8
+  },
+  {
+    "nombre": "Pesas para entrenamiento",
+    "descripcion": "Set de pesas para fortalecer diferentes grupos musculares en casa o en el gimnasio.",
+    "categoria": "Equipamiento deportivo",
+    "precio": 3000,
+    "stock": 12
+  },
+  {
+    "nombre": "Pantalones deportivos",
+    "descripcion": "Pantalones cómodos y elásticos para cualquier actividad física.",
+    "categoria": "Ropa deportiva",
+    "precio": 1400,
+    "stock": 22
+  },
+  {
+    "nombre": "Cuerda de saltar",
+    "descripcion": "Cuerda liviana y ajustable para ejercicios de cardio y agilidad.",
+    "categoria": "Accesorios",
+    "precio": 500,
+    "stock": 25
+  },
+  {
+    "nombre": "Gimnasio en casa",
+    "descripcion": "Equipo completo para entrenamiento en casa, incluye pesas, colchonetas y accesorios.",
+    "categoria": "Equipamiento deportivo",
+    "precio": 12000,
+    "stock": 5
+  },
+  {
+    "nombre": "Pelota de yoga",
+    "descripcion": "Pelota antiexplosión para ejercicios de estabilidad y fortalecimiento.",
+    "categoria": "Accesorios",
+    "precio": 800,
+    "stock": 20
+  },
+  {
+    "nombre": "Gafas de sol deportivas",
+    "descripcion": "Gafas diseñadas para proteger tus ojos durante actividades al aire libre.",
+    "categoria": "Accesorios",
+    "precio": 1200,
+    "stock": 15
+  },
+  {
+    "nombre": "Chaqueta impermeable",
+    "descripcion": "Chaqueta resistente al agua y transpirable para actividades al aire libre en días lluviosos.",
+    "categoria": "Ropa deportiva",
+    "precio": 2500,
+    "stock": 10
+  },
+  {
+    "nombre": "Termo deportivo",
+    "descripcion": "Termo aislante para mantener tus bebidas frías o calientes durante tus actividades.",
+    "categoria": "Accesorios",
+    "precio": 900,
+    "stock": 18
+  },
+  {
+    "nombre": "Patines en línea",
+    "descripcion": "Patines ajustables con ruedas resistentes, ideales para patinaje recreativo.",
+    "categoria": "Patines",
+    "precio": 1800,
+    "stock": 14
+  },
+  {
+    "nombre": "Cinta de correr",
+    "descripcion": "Cinta de correr plegable para entrenamiento en casa, con múltiples programas de ejercicio.",
+    "categoria": "Equipamiento deportivo",
+    "precio": 10000,
+    "stock": 7
+  },
+  {
+    "nombre": "Malla de fútbol",
+    "descripcion": "Malla portátil para partidos de fútbol en cualquier lugar.",
+    "categoria": "Equipamiento deportivo",
+    "precio": 1500,
+    "stock": 12
+  },
+  {
+    "nombre": "Casco para ciclismo",
+    "descripcion": "Casco ligero y ventilado para mayor seguridad durante tus paseos en bicicleta.",
+    "categoria": "Ciclismo",
+    "precio": 1200,
+    "stock": 15
+  },
+  {
+    "nombre": "Cinta de resistencia",
+    "descripcion": "Cinta elástica para ejercicios de resistencia y fortalecimiento muscular.",
+    "categoria": "Accesorios",
+    "precio": 600,
+    "stock": 25
+  },
+  {
+    "nombre": "Bolsa deportiva",
+    "descripcion": "Bolsa espaciosa con compartimentos para llevar tus artículos deportivos con estilo.",
+    "categoria": "Accesorios",
+    "precio": 1600,
+    "stock": 20
+  },
+  {
+    "nombre": "Gel energético",
+    "descripcion": "Gel con carbohidratos y electrolitos para mantener la energía durante tus entrenamientos.",
+    "categoria": "Nutrición deportiva",
+    "precio": 200,
+    "stock": 30
+  },
+  {
+    "nombre": "Goma de entrenamiento",
+    "descripcion": "Goma elástica para ejercicios de tonificación y fortalecimiento.",
+    "categoria": "Accesorios",
+    "precio": 400,
+    "stock": 20
+  },
+  {
+    "nombre": "Gafas de natación",
+    "descripcion": "Gafas diseñadas para nadar con comodidad y protección contra el cloro.",
+    "categoria": "Natación",
+    "precio": 700,
+    "stock": 15
+  },
+  {
+    "nombre": "Pantalones cortos deportivos",
+    "descripcion": "Pantalones cortos ideales para actividades deportivas en climas cálidos.",
+    "categoria": "Ropa deportiva",
+    "precio": 1000,
+    "stock": 25
+  },
+  {
+    "nombre": "Banda de resistencia",
+    "descripcion": "Banda elástica para ejercicios de fuerza y flexibilidad.",
+    "categoria": "Accesorios",
+    "precio": 300,
+    "stock": 22
+  },
+  {
+    "nombre": "Cuerda de béisbol",
+    "descripcion": "Cuerda resistente para ejercicios de béisbol y entrenamiento de lanzamiento.",
+    "categoria": "Béisbol",
+    "precio": 600,
+    "stock": 18
+  },
+  {
+    "nombre": "Chaleco de peso",
+    "descripcion": "Chaleco ajustable con pesos para intensificar tus entrenamientos de resistencia.",
+    "categoria": "Equipamiento deportivo",
+    "precio": 2500,
+    "stock": 10
+  }
+]
