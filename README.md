@@ -2,8 +2,6 @@
 
 ## ENTREGA DEL PROYECTO FINAL
 
-**Formato:** [Link al repositorio de Git](url_del_repositorio) donde se cumplan los objetivos + GIF/Video mostrando la navegabilidad y los flujos básicos de la aplicación y aquellos considerados importantes por el alumno/a.
-
 ## Introducción
 
 El proyecto final de mi curso de Desarrollo Frontend en Coder House es la culminación de seis meses de aprendizaje intensivo, abarcando desde los fundamentos del desarrollo web con HTML y CSS hasta el dominio de JavaScript y React. En este proyecto, he aplicado de manera práctica todos estos conocimientos al desarrollar una aplicación de e-commerce. Mi enfoque se centra en la creación de una interfaz de usuario dinámica y eficiente, utilizando las capacidades de React para gestionar estados, eventos y construir componentes reutilizables. Este proyecto no solo representa el cierre exitoso de mi formación en Coder House, sino también un testimonio tangible de mi progreso como desarrollador frontend. ¡Bienvenido a explorar este proyecto que encapsula mi viaje de aprendizaje!
