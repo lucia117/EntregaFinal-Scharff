@@ -4,7 +4,7 @@ const PurchaseSummary = ({ imageUrl, title, price }) => {
             <div class="flex justify-between text-left ">
 
                 <div className=" w-full max-w-3xl rounded-lg border border-gray-100 bg-white shadow-md ">
-                    <div class="mt-3 ">
+                    <div class="mt-3 m ">
                         <p className="font-semibold text-center">Resumen de compra</p>
                     </div>
                     <hr />

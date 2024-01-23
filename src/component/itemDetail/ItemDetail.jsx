@@ -17,7 +17,7 @@ const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
                                 />
                             </div>
                             {/* Product Details */}
-                            <div className="flex flex-col justify-between text-left ">
+                            <div className="flex flex-col justify-between text-left">
                                 <div>
                                     {/* Product Title */}
                                     <h1 className="text-3xl text-black font-semibold sm:text-4xl">

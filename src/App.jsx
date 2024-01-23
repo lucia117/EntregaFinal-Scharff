@@ -13,7 +13,7 @@ function App() {
 
   return (
 
-    <BrowserRouter>
+    <BrowserRouter >
       <Navbar />
 
       {/*       <Routes>
@@ -32,24 +32,26 @@ function App() {
 
       </Routes>*/}
 
+      <div className='container m-auto pl-5 pr-5'>
+        <ItemCheckout />
 
-      <ItemCheckout />
-
-      <div className="p-3 max-w-7xl m-auto ">
-        <div className="mt-6 sm:mt-10">
-          <div>
-            <div className="grid gird-cols-4 md:grid-cols-4 sm:grid-cols-4 gap-9 h-max ">
-              <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_763796-MLA72180623096_102023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
-              <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_652388-MLA54091535621_032023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
-              <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_893886-MLU70045140742_062023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
-              <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_652388-MLA54091535621_032023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
+        <div className="p-3 max-w-7xl m-auto ">
+          <div className="mt-6 sm:mt-10">
+            <div>
+              <div className="grid gird-cols-4 md:grid-cols-4 sm:grid-cols-4 gap-9 h-max ">
+                <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_763796-MLA72180623096_102023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
+                <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_652388-MLA54091535621_032023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
+                <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_893886-MLU70045140742_062023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
+                <ItemCard imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_652388-MLA54091535621_032023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" price="18.000" />
+              </div>
             </div>
           </div>
         </div>
+
+        <ItemDetail />
+        <ItemCheckout />
       </div>
 
-      <ItemDetail />
-      <ItemCheckout />
 
       <Footer />
     </BrowserRouter>
