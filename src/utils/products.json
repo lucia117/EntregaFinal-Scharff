@@ -5,7 +5,12 @@
         "categorias": ["Calzado", "Hombre"],
         "precio": 50.00,
         "descripcion": "Zapatillas modernas y cómodas para un estilo urbano casual.",
-        "cantidad": 100,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -13,7 +18,12 @@
         "categorias": ["Ropa", "Hombre"],
         "precio": 35.99,
         "descripcion": "Pantalón deportivo transpirable ideal para entrenamientos intensos.",
-        "cantidad": 80,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -21,7 +31,12 @@
         "categorias": ["Remeras y Camisetas", "Hombre"],
         "precio": 20.50,
         "descripcion": "Remera clásica de algodón, perfecta para el día a día.",
-        "cantidad": 120,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -29,7 +44,12 @@
         "categorias": ["Shorts", "Hombre"],
         "precio": 25.99,
         "descripcion": "Shorts tecnológicos para un rendimiento óptimo durante el ejercicio.",
-        "cantidad": 60,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -37,7 +57,12 @@
         "categorias": ["Pantalones y Calzas", "Hombre"],
         "precio": 45.50,
         "descripcion": "Pantalón cargo duradero y con estilo para cualquier ocasión.",
-        "cantidad": 40,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -45,7 +70,12 @@
         "categorias": ["Buzos", "Hombre"],
         "precio": 55.00,
         "descripcion": "Buzo deportivo con cuello redondo para un look moderno.",
-        "cantidad": 75,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -53,7 +83,12 @@
         "categorias": ["Camperas", "Hombre"],
         "precio": 80.99,
         "descripcion": "Campera resistente al agua, ideal para actividades al aire libre.",
-        "cantidad": 50,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -61,7 +96,12 @@
         "categorias": ["Calzado", "Mujer"],
         "precio": 65.00,
         "descripcion": "Zapatillas diseñadas para corredoras profesionales, ofrecen máximo soporte.",
-        "cantidad": 90,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -69,7 +109,12 @@
         "categorias": ["Ropa", "Mujer"],
         "precio": 75.99,
         "descripcion": "Conjunto deportivo de secado rápido para un rendimiento óptimo.",
-        "cantidad": 70,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -77,7 +122,12 @@
         "categorias": ["Tops Deportivos", "Mujer"],
         "precio": 30.50,
         "descripcion": "Top deportivo de alto impacto con excelente sujeción.",
-        "cantidad": 110,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -85,7 +135,12 @@
         "categorias": ["Remeras y Camisetas", "Mujer"],
         "precio": 22.99,
         "descripcion": "Camiseta de algodón orgánico suave y cómoda.",
-        "cantidad": 100,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -93,7 +148,12 @@
         "categorias": ["Calzas", "Mujer"],
         "precio": 35.50,
         "descripcion": "Calzas leggings ideales para entrenamientos de fitness.",
-        "cantidad": 80,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -101,7 +161,12 @@
         "categorias": ["Pantalones", "Mujer"],
         "precio": 50.00,
         "descripcion": "Pantalón palazzo elegante y cómodo para ocasiones especiales.",
-        "cantidad": 60,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -109,7 +174,12 @@
         "categorias": ["Shorts y Polleras", "Mujer"],
         "precio": 28.99,
         "descripcion": "Pollera deportiva con ventilación para mayor comodidad.",
-        "cantidad": 45,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -117,7 +187,12 @@
         "categorias": ["Buzos", "Mujer"],
         "precio": 40.50,
         "descripcion": "Buzo crop top casual para un estilo relajado y moderno.",
-        "cantidad": 55,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -125,7 +200,12 @@
         "categorias": ["Camperas", "Mujer"],
         "precio": 70.99,
         "descripcion": "Campera softshell deportiva para protección contra el viento y la lluvia.",
-        "cantidad": 30,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -133,7 +213,12 @@
         "categorias": ["Medias", "Accesorios"],
         "precio": 8.99,
         "descripcion": "Medias deportivas de algodón para máximo confort.",
-        "cantidad": 150,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -141,7 +226,12 @@
         "categorias": ["Gorras", "Accesorios"],
         "precio": 15.00,
         "descripcion": "Gorra ajustable con paneles de malla para una buena ventilación.",
-        "cantidad": 80,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -149,7 +239,12 @@
         "categorias": ["Bolsos y Mochilas", "Accesorios"],
         "precio": 35.99,
         "descripcion": "Mochila resistente con compartimentos para artículos deportivos.",
-        "cantidad": 40,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -157,7 +252,12 @@
         "categorias": ["Riñoneras", "Accesorios"],
         "precio": 18.50,
         "descripcion": "Riñonera deportiva con detalles reflectantes para mayor visibilidad.",
-        "cantidad": 60,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -165,7 +265,12 @@
         "categorias": ["Pelotas", "Accesorios"],
         "precio": 12.99,
         "descripcion": "Pelota de entrenamiento para ejercicios de fuerza y equilibrio.",
-        "cantidad": 30,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -173,7 +278,12 @@
         "categorias": ["Canilleras y Guantes", "Accesorios"],
         "precio": 25.50,
         "descripcion": "Canilleras acolchadas profesionales para protección durante el juego.",
-        "cantidad": 50,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       }, 
       {
@@ -181,7 +291,12 @@
         "categorias": ["Calzado", "Hombre"],
         "precio": 60.00,
         "descripcion": "Zapatillas diseñadas para rendimiento deportivo profesional.",
-        "cantidad": 120,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -189,7 +304,12 @@
         "categorias": ["Shorts", "Hombre"],
         "precio": 22.99,
         "descripcion": "Shorts casuales para un look relajado con máxima comodidad.",
-        "cantidad": 90,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -197,7 +317,12 @@
         "categorias": ["Remeras y Camisetas", "Hombre"],
         "precio": 18.50,
         "descripcion": "Camiseta técnica de secado rápido para entrenamientos intensivos.",
-        "cantidad": 150,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -205,7 +330,12 @@
         "categorias": ["Pantalones y Calzas", "Hombre"],
         "precio": 30.99,
         "descripcion": "Calzas ideales para corredores, ofrecen resistencia y flexibilidad.",
-        "cantidad": 80,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -213,7 +343,12 @@
         "categorias": ["Buzos", "Hombre"],
         "precio": 45.99,
         "descripcion": "Buzo con capucha estilo streetwear para un look urbano.",
-        "cantidad": 60,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -221,7 +356,12 @@
         "categorias": ["Camperas", "Hombre"],
         "precio": 90.50,
         "descripcion": "Campera acolchada para protección en invierno.",
-        "cantidad": 40,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -229,7 +369,12 @@
         "categorias": ["Calzado", "Mujer"],
         "precio": 70.00,
         "descripcion": "Zapatillas diseñadas para corredoras profesionales, estilo femenino.",
-        "cantidad": 100,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -237,7 +382,12 @@
         "categorias": ["Ropa", "Mujer"],
         "precio": 55.99,
         "descripcion": "Conjunto de yoga sin costuras para total libertad de movimiento.",
-        "cantidad": 120,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -245,7 +395,12 @@
         "categorias": ["Tops Deportivos", "Mujer"],
         "precio": 25.50,
         "descripcion": "Top deportivo con estampado moderno, ideal para entrenamientos.",
-        "cantidad": 90,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -253,7 +408,12 @@
         "categorias": ["Remeras y Camisetas", "Mujer"],
         "precio": 30.99,
         "descripcion": "Remera manga larga de algodón suave y transpirable.",
-        "cantidad": 80,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -261,7 +421,12 @@
         "categorias": ["Calzas", "Mujer"],
         "precio": 38.50,
         "descripcion": "Calzas estampadas para un look vibrante durante tus entrenamientos.",
-        "cantidad": 110,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -269,7 +434,12 @@
         "categorias": ["Pantalones", "Mujer"],
         "precio": 55.00,
         "descripcion": "Pantalón palazzo elegante y cómodo para mujeres sofisticadas.",
-        "cantidad": 70,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -277,7 +447,12 @@
         "categorias": ["Shorts y Polleras", "Mujer"],
         "precio": 20.99,
         "descripcion": "Pollera deportiva con tecnología DryFit para mantenerte seca.",
-        "cantidad": 100,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -285,7 +460,12 @@
         "categorias": ["Buzos", "Mujer"],
         "precio": 48.50,
         "descripcion": "Buzo oversize para un estilo casual y cómodo.",
-        "cantidad": 80,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -293,7 +473,12 @@
         "categorias": ["Camperas", "Mujer"],
         "precio": 60.99,
         "descripcion": "Campera deportiva ligera para actividades al aire libre.",
-        "cantidad": 50,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -301,7 +486,12 @@
         "categorias": ["Medias", "Accesorios"],
         "precio": 12.99,
         "descripcion": "Medias deportivas con suela antideslizante para entrenamientos intensos.",
-        "cantidad": 120,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -309,7 +499,12 @@
         "categorias": ["Gorras", "Accesorios"],
         "precio": 20.00,
         "descripcion": "Gorra ultraligera diseñada para corredores, ajuste cómodo.",
-        "cantidad": 90,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -317,7 +512,12 @@
         "categorias": ["Bolsos y Mochilas", "Accesorios"],
         "precio": 45.99,
         "descripcion": "Mochila fitness con compartimento especial para zapatos deportivos.",
-        "cantidad": 60,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -325,7 +525,12 @@
         "categorias": ["Riñoneras", "Accesorios"],
         "precio": 25.99,
         "descripcion": "Riñonera deportiva con múltiples bolsillos para llevar tus accesorios.",
-        "cantidad": 80,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -333,7 +538,12 @@
         "categorias": ["Pelotas", "Accesorios"],
         "precio": 15.99,
         "descripcion": "Pelota de pilates diseñada para resistir perforaciones.",
-        "cantidad": 50,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       },
       {
@@ -341,7 +551,12 @@
         "categorias": ["Canilleras y Guantes", "Accesorios"],
         "precio": 28.50,
         "descripcion": "Guantes acolchados para protección durante tus entrenamientos.",
-        "cantidad": 70,
+        "colors": [],
+        "stock":{
+          "blue":{
+            "s": 8
+          }
+        },
         "imgUrl":""
       }
     ]

@@ -1,72 +1,92 @@
-const ItemDetail = () => {
+import OutlineButton from "../buttons/outlineButton"
+import ColorButton from "../buttons/colorButton"
+
+const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
     return (
         <div>
-            <div className="p-3 max-w-7xl m-auto">
+            <div className="p-3 max-w-5xl m-auto ">
                 <div className="mt-6 sm:mt-10">
                     <div>
-                        <div className="grid gird-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-6 h-max">
+                        <div className="grid gird-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-9 h-max">
                             {/* Product Image */}
-                            <div className="overflow-hidden rounded-xl">
+                            <div className="overflow-hidden rounded-xl  ">
                                 <img
-                                    src="https://i.imgur.com/zryxaH8.jpg"
+                                    src="https://http2.mlstatic.com/D_NQ_NP_2X_652388-MLA54091535621_032023-F.webp"
                                     alt="Product-Image"
-                                    className="w-full"
+                                    className="object-scale-down"
                                 />
                             </div>
                             {/* Product Details */}
-                            <div className="flex flex-col justify-between">
+                            <div className="flex flex-col justify-between text-left ">
                                 <div>
                                     {/* Product Title */}
-                                    <h1 className="text-3xl text-red-500 font-semibold sm:text-4xl">
-                                        Burger
+                                    <h1 className="text-3xl text-black font-semibold sm:text-4xl">
+                                        {title} Remera Hombre Billabong Fundamental Neutral
+
                                     </h1>
                                     {/* Product Description */}
                                     <p className="mt-3 text-gray-600 text-md leading-6 text-justify sm:text-left sm:mt-4">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do eiusmod tempor incididunt ut labore et dolore magna
-                                        aliqua. Sed enim ut sem viverra aliquet eget sit. Odio
-                                        facilisis mauris sit amet
+                                        {description} Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor incididunt ut labore et dolore magna.
                                     </p>
 
                                     {/* Product Price */}
-                                    <span className="text-xl text-red-500 font-semibold sm:text-2xl">
-                                        $20
+                                    <span className="text-xl text-black font-semibold sm:text-2xl">
+                                        ${price}18.000
                                     </span>
-
-
-
-                                    {/* Quantity Input and Order Button */}
+                                    {/* Color select*/}
                                     <div className=" ">
                                         <div className="text-left flex flex-col gap-2 w-full">
-                                            {/* Quantity Label */}
-                                            <label className="font-semibold">Cantidad</label>
-                                            {/* Quantity Input */}
-                                            <input
-                                                className="border border-gray-300 text-sm font-semibold mb-1 max-w-full w-full outline-none rounded-md m-0 py-3 px-4 md:py-3 md:px-4 md:mb-0 focus:border-red-500"
-                                                type="number"
-                                                defaultValue="1"
-                                                required
-
-                                            />
-                                            <span>Cantidad Disponible: XX</span>
-
+                                            <label className="font-thin">Color</label>
+                                            <div>
+                                                <ColorButton color={"red"} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/* Size Button */}
+                                    <div className=" py-2">
+                                        <div className="text-left flex flex-col gap-2 w-full">
+                                            <label className="font-thin">Talle</label>
+                                            <div>
+                                                <OutlineButton text={"xs"} />
+                                                <OutlineButton text={"s"} />
+                                                <OutlineButton text={"m"} />
+                                            </div>
                                         </div>
                                     </div>
 
 
+                                    <div className="py-2">
+                                        <div className="text-left flex gap-2 w-full">
+                                            {/* Quantity Label */}
+                                            <label className="font-thin">Cantidad: </label>
+                                            <input className="border border-gray-300 text-sm mb-1 outline-none rounded-md m-0  md:py-1 md:px-2 md:mb-0" type="number" defaultValue="1" required />
+                                            <label className="font-thin">Disponible: 10</label>
+                                        </div>
+                                    </div>
 
+                                    {/* Quantity Input and Order Button */}
+                                    <div className=" ">
+                                        <div className="text-center flex flex-col gap-2 w-full">
+                                            {/* Buy button */}
+                                            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
+                                                Agregar al carrito
+                                            </button>
+
+                                        </div>
+                                    </div>
                                 </div>
-
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
 
-export default ItemDetail;
+export default ItemDetail
 
 /* https://medium.com/@ryaddev/how-to-create-product-details-component-with-react-and-tailwindcss-96fc4c45230e */
