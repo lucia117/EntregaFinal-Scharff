@@ -7,18 +7,18 @@ const ItemCard = ({ imageUrl, title, price }) => {
     return (
         <div className="relative m-10 flex w-full max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md ">
             {/* Imagen del Producto */}
-            <a className="relative mx-3 mt-3 flex h-60  rounded-xl " href="#">
+            <a className="relative mx-3 mt-1 flex h-60  rounded-xl " href="#">
                 <img className="object-scale-down" src={imageUrl} alt={title} />
                 {/* <span class="absolute top-0 left-0 m-2 rounded-full bg-black px-2 text-center text-sm font-medium text-white">39% OFF</span> */}
             </a>
 
-            <div className="mt-2 mb-5 flex items-center justify-between">
+            <div className=" m-3 flex items-center justify-between text-center">
                 <a href="#">
                     {/* Título del Producto */}
-                    <h5 className="text-xl tracking-tight text-slate-900">{title}</h5>
+                    <h5 className=" tracking-tight text-slate-900 ">{title}</h5>
 
                     {/* Precio del Producto */}
-                    <span className="text-xl text-black font-semibold sm:text-2xl">${price}</span>
+                    <span className="text-black font-semibold sm:text-xl">${price}</span>
                 </a>
 
             </div>

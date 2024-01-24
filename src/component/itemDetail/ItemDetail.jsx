@@ -4,16 +4,16 @@ import ColorButton from "../buttons/colorButton"
 const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
     return (
         <div>
-            <div className="p-3 max-w-5xl m-auto ">
-                <div className="mt-6 sm:mt-10">
+            <div className="p-3 max-w-5xl m-auto bg-white">
+                <div className=" sm:mt-10">
                     <div>
-                        <div className="grid gird-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-9 h-max">
+                        <div className="flex gird-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-9 ">
                             {/* Product Image */}
-                            <div className="overflow-hidden rounded-xl  ">
+                            <div className="rounded-xl">
                                 <img
-                                    src="https://http2.mlstatic.com/D_NQ_NP_2X_652388-MLA54091535621_032023-F.webp"
+                                    src={imageUrl}
                                     alt="Product-Image"
-                                    className="object-scale-down"
+                                    className="object-scale-down  "
                                 />
                             </div>
                             {/* Product Details */}
