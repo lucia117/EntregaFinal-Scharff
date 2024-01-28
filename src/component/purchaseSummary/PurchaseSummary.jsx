@@ -1,14 +1,14 @@
 const PurchaseSummary = ({ imageUrl, title, price }) => {
     return (
         <>
-            <div class="flex justify-between text-left ">
+            <div className="flex justify-between text-left ">
 
                 <div className=" w-full max-w-3xl rounded-lg border border-gray-100 bg-white shadow-md ">
-                    <div class="mt-3 m ">
+                    <div className="mt-3 m ">
                         <p className="font-semibold text-center">Resumen de compra</p>
                     </div>
                     <hr />
-                    <div class="grid grid-cols-2 mr-7 ml-7">
+                    <div className="grid grid-cols-2 mr-7 ml-7">
                         <div className="text-left">Productos</div>
                         <div className="text-right">$1234</div>
                         <div className="text-left">Envio</div>

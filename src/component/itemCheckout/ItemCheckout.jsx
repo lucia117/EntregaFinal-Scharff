@@ -3,9 +3,9 @@ import PurchaseSummary from "../purchaseSummary/PurchaseSummary"
 const ItemCheckout = ({ imageUrl, title, price }) => {
     return (
         <>
-            <div class="px-2 mt-3" >
-                <div class="flex -mx-2">
-                    <div class="w-2/3 px-2 ">
+            <div className="px-2 mt-3" >
+                <div className="flex -mx-2">
+                    <div className="w-2/3 px-2 ">
                         <div className=" w-full max-w-3xl rounded-lg border border-gray-100 bg-white shadow-md ">
                             <div className="flex gird-cols-4 md:grid-cols-4 sm:grid-cols-4 gap-2">
 
@@ -45,7 +45,7 @@ const ItemCheckout = ({ imageUrl, title, price }) => {
 
                         </div >
                     </div>
-                    <div class="w-1/3 px-2">
+                    <div className="w-1/3 px-2">
 
                         <PurchaseSummary />
 
