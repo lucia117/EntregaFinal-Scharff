@@ -9,6 +9,7 @@ import PokeApi from './component/pasar/pokeApi';
 import Navbar from './component/navbar/Navbar'
 import ItemNotFound from './component/itemNotFound/ItemNotFound';
 import ItemListContainer from './component/itemListContainer/ItemListContainer';
+import HomePage from './component/homePage/HomePage';
 
 
 
@@ -19,7 +20,7 @@ function App() {
     <BrowserRouter >
       <Navbar />
       <Routes>
-        <Route path='/' element={<ItemListContainer />} />
+        <Route path='/' element={<HomePage />} />
 
         <Route path='/pokeapi' element={<PokeApi />} />
 
@@ -28,6 +29,8 @@ function App() {
         <Route path='*' element={<Navigate to={"/not-found"} />} />
 
       </Routes>
+      <ItemDetail imageUrl="https://http2.mlstatic.com/D_NQ_NP_2X_652388-MLA54091535621_032023-F.webp" title="Remera Hombre Billabong Fundamental Neutral" />
+
       <Footer />
     </BrowserRouter>
   )

@@ -1,7 +1,30 @@
 import OutlineButton from "../buttons/outlineButton"
 import ColorButton from "../buttons/colorButton"
+import { useNavigate } from "react-router-dom"
+import { useContext, useState } from "react"
+import Size from "../size/Size"
+import Color from "../color/Color"
 
-const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
+
+const ItemDetail = ({ id, imageUrl, title, description, price, stock }) => {
+    /*     const navigate = useNavigate()
+        const [cantidad, setCantidad] = useState(1)
+        const { addToCart, isInCart } = useContext(CartContext)
+    
+        const handlerAgregar = () => {
+            const itemToCart = {
+                ...item,
+                cantidad, // => cantidad: cantidad
+            }
+    
+            addToCart(itemToCart)
+        }
+    
+        const handleVolver = () => {
+            navigate(-1)
+        } */
+
+
     return (
         <div>
             <div className="p-3 max-w-5xl m-auto bg-white">
@@ -13,7 +36,7 @@ const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
                                 <img
                                     src={imageUrl}
                                     alt="Product-Image"
-                                    className="object-scale-down  "
+                                    className="object-scale-down"
                                 />
                             </div>
                             {/* Product Details */}
@@ -22,8 +45,8 @@ const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
                                     {/* Product Title */}
                                     <h1 className="text-3xl text-black font-semibold sm:text-4xl">
                                         {title} Remera Hombre Billabong Fundamental Neutral
-
                                     </h1>
+
                                     {/* Product Description */}
                                     <p className="mt-3 text-gray-600 text-md leading-6 text-justify sm:text-left sm:mt-4">
                                         {description} Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -35,25 +58,12 @@ const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
                                         ${price}18.000
                                     </span>
                                     {/* Color select*/}
-                                    <div className=" ">
-                                        <div className="text-left flex flex-col gap-2 w-full">
-                                            <label className="font-thin">Color</label>
-                                            <div>
-                                                <ColorButton color={"red"} />
-                                            </div>
-                                        </div>
-                                    </div>
-                                    {/* Size Button */}
-                                    <div className=" py-2">
-                                        <div className="text-left flex flex-col gap-2 w-full">
-                                            <label className="font-thin">Talle</label>
-                                            <div>
-                                                <OutlineButton text={"xs"} />
-                                                <OutlineButton text={"s"} />
-                                                <OutlineButton text={"m"} />
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <Color colors={["red", "blue", "yellow"]} />
+
+                                    {/* Size select */}
+
+                                    <Size size={["s", "m", "l", "xl"]} />
+
 
 
                                     <div className="py-2">
@@ -61,9 +71,20 @@ const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
                                             {/* Quantity Label */}
                                             <label className="font-thin">Cantidad: </label>
                                             <input className="border border-gray-300 text-sm mb-1 outline-none rounded-md m-0  md:py-1 md:px-2 md:mb-0" type="number" defaultValue="1" required />
-                                            <label className="font-thin">Disponible: 10</label>
+                                            <label className="font-thin">Disponible: 10{stock}</label>
                                         </div>
                                     </div>
+
+
+
+                                    {/*     {
+                                        isInCart(id)
+                                            ? <Boton><Link to="/cart">Terminar mi compra</Link></Boton>
+                                            : <Boton onClick={handleAgregar} disabled={stock === 0}>Agregar al carrito</Boton>
+
+                                    } */}
+
+
 
                                     {/* Quantity Input and Order Button */}
                                     <div className=" ">
@@ -82,7 +103,7 @@ const ItemDetail = ({ imageUrl, title, description, price, quantity }) => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
 
