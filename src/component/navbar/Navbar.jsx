@@ -18,12 +18,14 @@ const links = [
         href: "/productos/hombre",
     },
     {
+        label: "Unisex",
+        href: "/productos/unisex",
+    },
+    {
         label: "Accesorios",
         href: "/productos/accesorios",
     }
 ];
-
-
 
 
 function Navbar() {

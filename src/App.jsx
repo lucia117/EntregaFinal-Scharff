@@ -8,6 +8,7 @@ import ItemNotFound from './component/itemNotFound/ItemNotFound';
 import HomePage from './component/homePage/HomePage';
 import ItemDetailContainer from './component/itemDetailContainer/ItemDetailContainer';
 import ItemListContainer from './component/itemListContainer/ItemListContainer';
+import CartView from './component/cartView/CartView';
 
 
 
@@ -15,21 +16,23 @@ function App() {
   return (
     <BrowserRouter >
       <Navbar />
-      <Routes>
-        <Route path='/' element={<HomePage />} />
+      <div className='container content-center mr-2   bg-slate-100'>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
 
-        <Route
-          path="/productos/:categoryId"
-          element={<ItemListContainer />}
-        />
-        <Route path='/item/:itemId' element={<ItemDetailContainer />} />
+          <Route
+            path="/productos/:categoryId"
+            element={<ItemListContainer />}
+          />
+          <Route path='/item/:itemId' element={<ItemDetailContainer />} />
 
-        {/*         <Route path="/cart" element={<CartView />} />
-        <Route path="/checkout" element={<Checkout />} /> */}
+          <Route path="/cart" element={<CartView />} />
 
-        <Route path='/not-found' element={<ItemNotFound />} />
-        <Route path='*' element={<Navigate to={"/not-found"} />} />
-      </Routes>
+          <Route path='/not-found' element={<ItemNotFound />} />
+          <Route path='*' element={<Navigate to={"/not-found"} />} />
+        </Routes>
+      </div>
+
 
       <Footer />
     </BrowserRouter>
