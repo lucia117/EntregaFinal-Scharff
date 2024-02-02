@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 const PurchaseSummary = ({ imageUrl, title, price }) => {
     return (
         <>
@@ -17,8 +19,9 @@ const PurchaseSummary = ({ imageUrl, title, price }) => {
                         <div className="text-right mt-1">$1234</div>
                     </div>
                     <div className="text-center m-5">
+
                         <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
-                            Finalizar Compra
+                            <Link to="/checkout">Finalizar Compra</Link>
                         </button>
                     </div>
 

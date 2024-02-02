@@ -40,12 +40,11 @@ const ItemCheckout = ({ imageUrl, title, price }) => {
                                     ${price}18.000
                                 </label>
                             </div>
+                        </div>
 
-
-                        </div >
-                    </div>
-
+                    </div >
                 </div>
+
             </div>
 
 
