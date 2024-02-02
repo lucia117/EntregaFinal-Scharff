@@ -26,7 +26,7 @@ const ItemCard = ({ producto }) => {
                 </a>
 
                 {/* Precio del Producto */}
-                <span className="text-black font-semibold sm:text-xl">$</span>
+                <span className="text-black font-semibold sm:text-xl">${precio}</span>
             </div>
         </Link>
     );
