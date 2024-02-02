@@ -1,564 +1,226 @@
-{
-    "productos": [
-      {
-        "nombre": "Zapatillas Urbanas",
-        "categorias": ["Calzado", "Hombre"],
-        "precio": 50.00,
-        "descripcion": "Zapatillas modernas y cómodas para un estilo urbano casual.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
+[
+  {
+      "nombre": "Zapatillas de Running",
+      "descripcion": "Zapatillas diseñadas para corredores, proporcionan comodidad y soporte.",
+      "imgUrl": "https://www.stockcenter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw01eda722/products/NIDM0821-004/NIDM0821-004-1.JPG",
+      "precio": 79.99,
+      "categoria": "calzado",
+      "tipo": "zapatillas",
+      "genero": "unisex",
+      "color": [
+          "blue",
+          "red"
+      ],
+      "stock": {
+          "blue": {
+              "40": 15,
+              "41": 20,
+              "43": 25
+          },
+          "red": {
+              "38": 10,
+              "40": 15,
+              "45": 20
           }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pantalón Deportivo",
-        "categorias": ["Ropa", "Hombre"],
-        "precio": 35.99,
-        "descripcion": "Pantalón deportivo transpirable ideal para entrenamientos intensos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Remera Algodón Classic",
-        "categorias": ["Remeras y Camisetas", "Hombre"],
-        "precio": 20.50,
-        "descripcion": "Remera clásica de algodón, perfecta para el día a día.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Shorts Deportivos Tech",
-        "categorias": ["Shorts", "Hombre"],
-        "precio": 25.99,
-        "descripcion": "Shorts tecnológicos para un rendimiento óptimo durante el ejercicio.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pantalón Cargo Resistente",
-        "categorias": ["Pantalones y Calzas", "Hombre"],
-        "precio": 45.50,
-        "descripcion": "Pantalón cargo duradero y con estilo para cualquier ocasión.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Buzo Cuello Redondo Sport",
-        "categorias": ["Buzos", "Hombre"],
-        "precio": 55.00,
-        "descripcion": "Buzo deportivo con cuello redondo para un look moderno.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Campera Impermeable Outdoor",
-        "categorias": ["Camperas", "Hombre"],
-        "precio": 80.99,
-        "descripcion": "Campera resistente al agua, ideal para actividades al aire libre.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Zapatillas Running Pro",
-        "categorias": ["Calzado", "Mujer"],
-        "precio": 65.00,
-        "descripcion": "Zapatillas diseñadas para corredoras profesionales, ofrecen máximo soporte.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Conjunto Deportivo DryFit",
-        "categorias": ["Ropa", "Mujer"],
-        "precio": 75.99,
-        "descripcion": "Conjunto deportivo de secado rápido para un rendimiento óptimo.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Top Deportivo High Impact",
-        "categorias": ["Tops Deportivos", "Mujer"],
-        "precio": 30.50,
-        "descripcion": "Top deportivo de alto impacto con excelente sujeción.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Camiseta Algodón Orgánico",
-        "categorias": ["Remeras y Camisetas", "Mujer"],
-        "precio": 22.99,
-        "descripcion": "Camiseta de algodón orgánico suave y cómoda.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Calzas Leggings Fitness",
-        "categorias": ["Calzas", "Mujer"],
-        "precio": 35.50,
-        "descripcion": "Calzas leggings ideales para entrenamientos de fitness.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pantalón Palazzo Elegante",
-        "categorias": ["Pantalones", "Mujer"],
-        "precio": 50.00,
-        "descripcion": "Pantalón palazzo elegante y cómodo para ocasiones especiales.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pollera Deportiva Ventilación",
-        "categorias": ["Shorts y Polleras", "Mujer"],
-        "precio": 28.99,
-        "descripcion": "Pollera deportiva con ventilación para mayor comodidad.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Buzo Crop Top Casual",
-        "categorias": ["Buzos", "Mujer"],
-        "precio": 40.50,
-        "descripcion": "Buzo crop top casual para un estilo relajado y moderno.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Campera Softshell Deportiva",
-        "categorias": ["Camperas", "Mujer"],
-        "precio": 70.99,
-        "descripcion": "Campera softshell deportiva para protección contra el viento y la lluvia.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Medias Deportivas Algodón",
-        "categorias": ["Medias", "Accesorios"],
-        "precio": 8.99,
-        "descripcion": "Medias deportivas de algodón para máximo confort.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Gorra Ajustable Mesh",
-        "categorias": ["Gorras", "Accesorios"],
-        "precio": 15.00,
-        "descripcion": "Gorra ajustable con paneles de malla para una buena ventilación.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Mochila Deportiva Resistente",
-        "categorias": ["Bolsos y Mochilas", "Accesorios"],
-        "precio": 35.99,
-        "descripcion": "Mochila resistente con compartimentos para artículos deportivos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Riñonera Deportiva Reflectante",
-        "categorias": ["Riñoneras", "Accesorios"],
-        "precio": 18.50,
-        "descripcion": "Riñonera deportiva con detalles reflectantes para mayor visibilidad.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pelota de Entrenamiento Fitness",
-        "categorias": ["Pelotas", "Accesorios"],
-        "precio": 12.99,
-        "descripcion": "Pelota de entrenamiento para ejercicios de fuerza y equilibrio.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Canilleras Acolchadas Pro",
-        "categorias": ["Canilleras y Guantes", "Accesorios"],
-        "precio": 25.50,
-        "descripcion": "Canilleras acolchadas profesionales para protección durante el juego.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      }, 
-      {
-        "nombre": "Zapatillas Deportivas Pro",
-        "categorias": ["Calzado", "Hombre"],
-        "precio": 60.00,
-        "descripcion": "Zapatillas diseñadas para rendimiento deportivo profesional.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Shorts Casual Comodidad",
-        "categorias": ["Shorts", "Hombre"],
-        "precio": 22.99,
-        "descripcion": "Shorts casuales para un look relajado con máxima comodidad.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Camiseta Técnica Secado Rápido",
-        "categorias": ["Remeras y Camisetas", "Hombre"],
-        "precio": 18.50,
-        "descripcion": "Camiseta técnica de secado rápido para entrenamientos intensivos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Calzas Running Resistencia",
-        "categorias": ["Pantalones y Calzas", "Hombre"],
-        "precio": 30.99,
-        "descripcion": "Calzas ideales para corredores, ofrecen resistencia y flexibilidad.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Buzo Capucha Streetwear",
-        "categorias": ["Buzos", "Hombre"],
-        "precio": 45.99,
-        "descripcion": "Buzo con capucha estilo streetwear para un look urbano.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Campera Invierno Acolchada",
-        "categorias": ["Camperas", "Hombre"],
-        "precio": 90.50,
-        "descripcion": "Campera acolchada para protección en invierno.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Zapatillas Running Pro Mujer",
-        "categorias": ["Calzado", "Mujer"],
-        "precio": 70.00,
-        "descripcion": "Zapatillas diseñadas para corredoras profesionales, estilo femenino.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Conjunto Yoga Seamless",
-        "categorias": ["Ropa", "Mujer"],
-        "precio": 55.99,
-        "descripcion": "Conjunto de yoga sin costuras para total libertad de movimiento.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Top Deportivo Estampado",
-        "categorias": ["Tops Deportivos", "Mujer"],
-        "precio": 25.50,
-        "descripcion": "Top deportivo con estampado moderno, ideal para entrenamientos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Remera Manga Larga Algodón",
-        "categorias": ["Remeras y Camisetas", "Mujer"],
-        "precio": 30.99,
-        "descripcion": "Remera manga larga de algodón suave y transpirable.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Calzas Deportivas Estampadas",
-        "categorias": ["Calzas", "Mujer"],
-        "precio": 38.50,
-        "descripcion": "Calzas estampadas para un look vibrante durante tus entrenamientos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pantalón Elegante Palazzo Mujer",
-        "categorias": ["Pantalones", "Mujer"],
-        "precio": 55.00,
-        "descripcion": "Pantalón palazzo elegante y cómodo para mujeres sofisticadas.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pollera Deportiva DryFit",
-        "categorias": ["Shorts y Polleras", "Mujer"],
-        "precio": 20.99,
-        "descripcion": "Pollera deportiva con tecnología DryFit para mantenerte seca.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Buzo Oversize Casual",
-        "categorias": ["Buzos", "Mujer"],
-        "precio": 48.50,
-        "descripcion": "Buzo oversize para un estilo casual y cómodo.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Campera Deportiva Ligera",
-        "categorias": ["Camperas", "Mujer"],
-        "precio": 60.99,
-        "descripcion": "Campera deportiva ligera para actividades al aire libre.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Medias Deportivas Antideslizantes",
-        "categorias": ["Medias", "Accesorios"],
-        "precio": 12.99,
-        "descripcion": "Medias deportivas con suela antideslizante para entrenamientos intensos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Gorra Running Ultraligera",
-        "categorias": ["Gorras", "Accesorios"],
-        "precio": 20.00,
-        "descripcion": "Gorra ultraligera diseñada para corredores, ajuste cómodo.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Mochila Fitness con Compartimento Zapatos",
-        "categorias": ["Bolsos y Mochilas", "Accesorios"],
-        "precio": 45.99,
-        "descripcion": "Mochila fitness con compartimento especial para zapatos deportivos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Riñonera Deportiva Multibolsillos",
-        "categorias": ["Riñoneras", "Accesorios"],
-        "precio": 25.99,
-        "descripcion": "Riñonera deportiva con múltiples bolsillos para llevar tus accesorios.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Pelota de Pilates Antiexplosión",
-        "categorias": ["Pelotas", "Accesorios"],
-        "precio": 15.99,
-        "descripcion": "Pelota de pilates diseñada para resistir perforaciones.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
-      },
-      {
-        "nombre": "Guantes Fitness Acolchados",
-        "categorias": ["Canilleras y Guantes", "Accesorios"],
-        "precio": 28.50,
-        "descripcion": "Guantes acolchados para protección durante tus entrenamientos.",
-        "colors": [],
-        "stock":{
-          "blue":{
-            "s": 8
-          }
-        },
-        "imgUrl":""
       }
-    ]
+  },
+  {
+      "nombre": "Camiseta Técnica de Manga Corta",
+      "descripcion": "Camiseta técnica ideal para entrenamientos intensos, transpirable y de secado rápido.",
+      "imgUrl": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw4b7a9483/products/UA1359304-500/UA1359304-500-1.JPG",
+      "precio": 12,
+      "categoria": "ropa",
+      "tipo": "remera",
+      "genero": "mujer",
+      "color": [
+          "grey",
+          "white"
+      ],
+      "stock": {
+          "grey": {
+              "l": 12,
+              "m": 18,
+              "s": 24
+          },
+          "white": {
+              "l": 8,
+              "m": 12,
+              "s": 16
+          }
+      }
+  },
+  {
+      "nombre": "Mochila Deportiva",
+      "descripcion": "Mochila espaciosa y cómoda para llevar tus pertenencias durante tus entrenamientos.",
+      "imgUrl": "https://d368r8jqz0fwvm.cloudfront.net/46533-product_lg/mochila-ender-10-lts.jpg",
+      "precio": 25000.99,
+      "categoria": "accesorios",
+      "tipo": "mochila",
+      "genero": "unisex",
+      "color": [
+          "black",
+          "green"
+      ],
+      "stock": {
+          "black": {
+              "unica": 20
+          },
+          "green": {
+              "unica": 15
+          }
+      }
+  },
+  {
+      "nombre": "Guantes de Levantamiento de Pesas",
+      "descripcion": "Guantes acolchados para proteger las manos durante el levantamiento de pesas.",
+      "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_749636-MLA72465053132_102023-F.webp",
+      "precio": 13999,
+      "categoria": "accesorios",
+      "tipo": "guantes",
+      "genero": "unisex",
+      "color": [
+          "grey"
+      ],
+      "stock": {
+          "grey": {
+              "l": 10,
+              "m": 15,
+              "s": 20
+          }
+      }
+  },
+  {
+      "nombre": "Pelota de Fútbol",
+      "descripcion": "Pelota de fútbol profesional para entrenamientos y partidos.",
+      "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_632373-MLA72046931726_102023-F.webp",
+      "precio": 24000.99,
+      "categoria": "accesorios",
+      "tipo": "pelota",
+      "genero": "unisex",
+      "color": [
+          "whait",
+          "black"
+      ],
+      "stock": {
+          "whait": {
+              "unica": 25
+          },
+          "black": {
+              "unica": 20
+          }
+      }
+  },
+  {
+      "nombre": "Calcetines Deportivos",
+      "descripcion": "Calcetines transpirables diseñados para proporcionar comodidad durante el ejercicio.",
+      "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_986868-MLA72415695438_102023-F.webp",
+      "precio": 9.99,
+      "categoria": "ropa",
+      "tipo": "calcetines",
+      "genero": "unisex",
+      "color": [
+          "grey",
+          "blue"
+      ],
+      "stock": {
+          "grey": {
+              "l": 10,
+              "m": 13,
+              "s": 20
+          },
+          "blue": {
+              "l": 4,
+              "m": 5,
+              "s": 2
+          }
+      }
+  },
+  {
+      "nombre": "Cinta de Correr Plegable",
+      "descripcion": "Cinta de correr compacta y plegable para entrenamientos en casa.",
+      "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_712107-MLA74064116463_012024-F.webp",
+      "precio": 399.99,
+      "categoria": "equipamiento",
+      "tipo": "cinta de correr",
+      "genero": "unisex",
+      "color": [
+          "negro"
+      ],
+      "stock": {
+          "negro": {
+              "unica": 10
+          }
+      }
+  },
+  {
+      "nombre": "Pantalón Deportivo",
+      "descripcion": "Pantalón deportivo cómodo para entrenamientos y actividades físicas.",
+      "imgUrl": "https://http2.mlstatic.com/D_NQ_NP_2X_755369-MLA44755379806_012021-F.webp",
+      "precio": 4950,
+      "categoria": "ropa",
+      "tipo": "pantalon",
+      "genero": "unisex",
+      "color": [
+          "blak",
+          "blue"
+      ],
+      "stock": {
+          "blak": {
+              "l": 15,
+              "m": 20,
+              "s": 25
+          },
+          "verde": {
+              "l": 10,
+              "m": 15,
+              "s": 20
+          }
+      }
+  },
+  {
+      "nombre": "Bicicleta de Montaña",
+      "descripcion": "Bicicleta robusta y versátil para aventuras en terrenos montañosos.",
+      "imgUrl": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw7bba6a5c/products/RABIN20D275NGRS/RABIN20D275NGRS-1.JPG",
+      "precio": 599000.99,
+      "categoria": "equipamiento",
+      "tipo": "bicicleta",
+      "genero": "unisex",
+      "color": [
+          "red",
+          "black"
+      ],
+      "stock": {
+          "red": {
+              "l": 1,
+              "m": 2,
+              "s": 2
+          },
+          "black": {
+              "l": 2,
+              "m": 2,
+              "s": 2
+          }
+      }
+  },
+  {
+      "nombre": "Gorra Deportiva",
+      "descripcion": "Gorra ajustable ideal para protegerse del sol durante actividades al aire libre.",
+      "imgUrl": "https://www.dexter.com.ar/on/demandware.static/-/Sites-365-dabra-catalog/default/dw094c16c3/products/AD_HL4848/AD_HL4848-1.JPG",
+      "precio": 14000.99,
+      "categoria": "accesorios",
+      "tipo": "gorra",
+      "genero": "unisex",
+      "color": [
+          "blue",
+          "whait"
+      ],
+      "stock": {
+          "blue": {
+              "unica": 20
+          },
+          "whait": {
+              "unica": 15
+          }
+      }
   }
-  
+]

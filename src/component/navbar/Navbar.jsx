@@ -1,6 +1,30 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import CartWidget from "../cartWidget/CartWidget"
 import { faHeart, faUser } from "@fortawesome/free-solid-svg-icons"
+import { NavLink } from "react-router-dom";
+
+
+const links = [
+    {
+        label: "Inicio",
+        href: "/",
+    },
+    {
+        label: "Mujer",
+        href: "/productos/mujer",
+    },
+    {
+        label: "Hombre",
+        href: "/productos/hombre",
+    },
+    {
+        label: "Accesorios",
+        href: "/productos/accesorios",
+    }
+];
+
+
+
 
 function Navbar() {
     return (
@@ -14,9 +38,17 @@ function Navbar() {
 
                     {/* Enlaces */}
                     <div className="space-x-4">
-                        <a href="#" className="text-white">Categorias</a>
-                        <a href="#" className="text-white">Ofertas</a>
-                        <a href="#" className="text-white">Contacto</a>
+                        {links.map((link) => (
+                            <NavLink
+                                key={link.href}
+                                to={link.href}
+                                className={({ isActive }) => (
+                                    `  font-semibold ${isActive ? "text-blue-400" : "text-white"}`
+                                )}
+                            >
+                                {link.label}
+                            </NavLink>
+                        ))}
                     </div>
 
                     {/* Carrito, Perfil y Favoritos */}
