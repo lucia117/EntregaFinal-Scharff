@@ -14,8 +14,8 @@ const ItemCard = ({ producto }) => {
             {/* Imagen del Producto */}
             <div className="relative mx-3 mt-1 flex h-60 rounded-xl ">
                 <img className="object-scale-down" src={imgUrl} alt="" />
-                {/* Descuento */}
-                <span className={discountBadgeClass}>39% OFF</span>
+                {/* Descuento
+                <span className={discountBadgeClass}>39% OFF</span> */}
             </div>
 
             {/* Detalles del Producto */}

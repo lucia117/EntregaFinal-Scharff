@@ -1,4 +1,28 @@
+import { useContext, useState } from "react";
+import { UserContext } from "../../context/UserContext";
+
 const Login = () => {
+    const { login, register, googleLogin } = useContext(UserContext);
+
+
+    const [values, setValues] = useState({
+        email: "",
+        password: "",
+    });
+
+    const handleInputChange = (e) => {
+        setValues({
+            ...values,
+            [e.target.name]: e.target.value,
+        });
+    };
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+
+        login(values);
+    };
+
     return (
         <div className="w-full max-w-xs">
             <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -24,6 +48,19 @@ const Login = () => {
                     </a>
                 </div>
             </form>
+            <button
+                onClick={() => register(values)}
+                className="bg-blue-500 text-white p-2 mt-4"
+            >
+                Registrar
+            </button>
+            <br />
+            <button
+                onClick={googleLogin}
+                className="bg-blue-500 text-white p-2 mt-4"
+            >
+                Iniciar sesión con Google
+            </button>
             <p className="text-center text-gray-500 text-xs">
                 &copy;2020 Acme Corp. All rights reserved.
             </p>

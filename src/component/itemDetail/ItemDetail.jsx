@@ -3,20 +3,33 @@ import { useNavigate } from "react-router-dom"
 import { useContext, useEffect, useState } from "react"
 import Size from "../size/Size"
 import Color from "../color/Color"
+import { CartContext } from "../../context/CartContext"
 
 
 const ItemDetail = ({ product }) => {
     const { nombre, descripcion, imgUrl, precio, color, stock } = product
-    /* const navigate = useNavigate()
+    const navigate = useNavigate()
     const [cantidad, setCantidad] = useState(1)
     const { addToCart, isInCart } = useContext(CartContext)
-    addToCart(itemToCart) */
+    addToCart(itemToCart)
+
+    const handleAgregar = () => {
+        const itemToCart = {
+            ...item,
+            cantidad, // => cantidad: cantidad
+        }
+
+        addToCart(itemToCart)
+    }
+
+    const handleVolver = () => {
+        navigate(-1)
+    }
 
     const [colorSelec, setColorSelec] = useState(color[0])
     const [talleByColor, setTalleByColor] = useState([])
     const [talleSelect, setTalleSelec] = useState([])
     const [stockSelect, setStockSelec] = useState([])
-
 
 
     useEffect(() => {

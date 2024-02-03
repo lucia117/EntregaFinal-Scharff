@@ -1,7 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import CartWidget from "../cartWidget/CartWidget"
-import { faHeart, faUser } from "@fortawesome/free-solid-svg-icons"
+import { faHeart, faUser, faSignOutAlt } from "@fortawesome/free-solid-svg-icons"
 import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { UserContext } from "../../context/UserContext";
 
 
 const links = [
@@ -29,6 +31,8 @@ const links = [
 
 
 function Navbar() {
+    const { user, logout } = useContext(UserContext)
+
     return (
         <header  >
             <nav className="bg-gray-800 p-4">
@@ -53,7 +57,7 @@ function Navbar() {
                         ))}
                     </div>
 
-                    {/* Carrito, Perfil y Favoritos */}
+                    {/* Carrito, Perfil y Salir */}
                     <div className="flex items-center space-x-4">
                         <CartWidget />
                         <a href="#" className="text-white">
@@ -62,7 +66,9 @@ function Navbar() {
                         <a href="#" className="text-white">
                             <FontAwesomeIcon icon={faUser} className="text-2xl text-white cursor-pointer" />
                         </a>
-
+                        <a onClick={logout} className="text-white">
+                            <FontAwesomeIcon icon={faSignOutAlt} className="text-2xl text-white cursor-pointer" />
+                        </a>
                     </div>
                 </div>
             </nav>

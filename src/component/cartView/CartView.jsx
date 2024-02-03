@@ -1,13 +1,19 @@
 import { Link } from "react-router-dom";
-import Boton from "../buttons/boton";
 import ItemCheckout from "../itemCheckout/ItemCheckout";
 import PurchaseSummary from "../purchaseSummary/PurchaseSummary";
+import { useContext } from "react";
+import { UserContext } from "../../context/UserContext";
+import { CartContext } from "../../context/CartContext";
+import EmtpyCart from "./EmtpyCart";
 
 const CartView = () => {
     // const { cart, totalCart, clearCart, removeItem } = useContext(CartContext);
-    // const { user } = useContext(UserContext);
+    //const { cart } = useContext(CartContext);
 
+    console.log("AAAAAAAAAAAA", CartContext)
+    const { user } = useContext(UserContext);
 
+    if (!user.email) return <h2>No hay usuario registrado</h2>
     //if (cart.length === 0) return <EmtpyCart />
 
 
