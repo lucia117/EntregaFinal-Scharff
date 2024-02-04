@@ -18,3 +18,12 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore( app )
 export const auth = getAuth(app)
 export const provider = new GoogleAuthProvider()
+
+/*
+const apiKey= process.env.REACT_APP_apiKey_ENV
+const authDomain= process.env.REACT_APP_authDomain_ENV
+const projectId= process.env.REACT_APP_projectId_ENV
+const storageBucket= process.env.REACT_APP_storageBucket_ENV
+const messagingSenderId= process.env.REACT_APP_messagingSenderId_ENV
+const appId= process.env.REACT_APP_appId_ENV
+ */

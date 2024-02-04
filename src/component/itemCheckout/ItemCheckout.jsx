@@ -1,11 +1,14 @@
+import { Link } from "react-router-dom";
 
 
 const ItemCheckout = ({ id, producto, removeItem }) => {
     const { nombre, precio, imgUrl, selected, cantidad } = producto
+    const itemDetailLink = `/item/${id}`;
+
     console.log("AAAAAA", producto)
     return (
         <>
-            <div className="px-2 mt-3" >
+            <Link to={itemDetailLink} className="px-2 mt-3" >
                 <div className="flex -mx-2">
                     <div className=" w-full max-w-3xl rounded-lg border border-gray-100 bg-white shadow-md ">
                         <div className="flex gird-cols-4 md:grid-cols-4 sm:grid-cols-4 gap-2">
@@ -47,7 +50,7 @@ const ItemCheckout = ({ id, producto, removeItem }) => {
                     </div >
                 </div>
 
-            </div>
+            </Link>
 
 
         </>

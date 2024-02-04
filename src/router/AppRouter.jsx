@@ -9,6 +9,7 @@ import ItemDetailContainer from '../component/itemDetailContainer/ItemDetailCont
 import ItemListContainer from '../component/itemListContainer/ItemListContainer';
 import CartView from '../component/cartView/CartView';
 import Login from '../component/login/Login';
+import Checkout from "../component/checkout/Checkout";
 
 
 const AppRouter = () => {
@@ -30,6 +31,7 @@ const AppRouter = () => {
                     />
                     <Route path='/item/:itemId' element={<ItemDetailContainer />} />
                     <Route path="/cart" element={<CartView />} />
+                    <Route path="/checkout" element={<Checkout />} />
                     <Route path='/not-found' element={<ItemNotFound />} />
                     <Route path='*' element={<Navigate to={"/"} />} />
                 </Routes>

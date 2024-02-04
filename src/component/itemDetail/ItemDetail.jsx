@@ -8,7 +8,7 @@ import Boton from "../buttons/boton";
 
 
 const ItemDetail = ({ product }) => {
-    const { nombre, descripcion, imgUrl, precio, color, stock } = product
+    const { nombre, descripcion, imgUrl, precio, color, stock, categoria, tipo, genero } = product
     const navigate = useNavigate()
     const [cantidad, setCantidad] = useState(1)
     const { addToCart, isInCart } = useContext(CartContext)
@@ -54,6 +54,11 @@ const ItemDetail = ({ product }) => {
 
     return (
         <div>
+            <div>
+                <a onClick={handleVolver}> Volver</a>
+                <span> | {categoria}/{genero}/{tipo}</span>
+
+            </div>
             <div className="p-3 max-w-5xl m-auto bg-white">
                 <div className=" sm:mt-10">
                     <div>
