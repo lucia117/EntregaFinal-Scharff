@@ -5,10 +5,9 @@ const ItemCheckout = ({ id, producto, removeItem }) => {
     const { nombre, precio, imgUrl, selected, cantidad } = producto
     const itemDetailLink = `/item/${id}`;
 
-    console.log("AAAAAA", producto)
     return (
         <>
-            <Link to={itemDetailLink} className="px-2 mt-3" >
+            <div className="px-2 mt-3" >
                 <div className="flex -mx-2">
                     <div className=" w-full max-w-3xl rounded-lg border border-gray-100 bg-white shadow-md ">
                         <div className="flex gird-cols-4 md:grid-cols-4 sm:grid-cols-4 gap-2">
@@ -22,9 +21,9 @@ const ItemCheckout = ({ id, producto, removeItem }) => {
                                 />
                             </div>
                             <div className="text-left pt-1">
-                                <p className="text-black">
+                                <Link to={itemDetailLink} className="text-black">
                                     {nombre}
-                                </p>
+                                </Link>
                                 <p>
                                     <label className="font-thin">Color: </label>
                                     <label className="font-thin">{selected.color}, </label>
@@ -50,7 +49,7 @@ const ItemCheckout = ({ id, producto, removeItem }) => {
                     </div >
                 </div>
 
-            </Link>
+            </div>
 
 
         </>

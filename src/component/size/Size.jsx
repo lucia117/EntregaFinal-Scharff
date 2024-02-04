@@ -1,6 +1,8 @@
 import OutlineButton from "../buttons/outlineButton";
 
-const Size = ({ size, handleClick }) => {
+const Size = ({ size, handleClick, talleSelected }) => {
+
+    const isSelected = (talle) => talle === talleSelected
 
     return (
         <div className="py-2">
@@ -9,7 +11,7 @@ const Size = ({ size, handleClick }) => {
                 <label className="font-thin">Talle</label>
                 <div>
                     {size.map(element => (
-                        <OutlineButton key={element} text={element} handleClick={handleClick} />
+                        <OutlineButton key={element} text={element} handleClick={handleClick} isSelected={isSelected(element)} />
                     ))}
                 </div>
             </div>

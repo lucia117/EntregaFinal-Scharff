@@ -1,11 +1,15 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import { CartContext } from '../../context/CartContext';
 
 const CartWidget = () => {
     // Número hardcodeado para la notificación
-    const notificationNumber = 5;
+
+    const { itemsInCart } = useContext(CartContext)
+
+    const notificationNumber = itemsInCart();
 
     return (
         <Link to="/cart" className={`flex items-center gap-1 cursor-pointer`}>

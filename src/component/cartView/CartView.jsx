@@ -16,7 +16,7 @@ const CartView = () => {
 
 
     return (
-        <section className="container m-auto mt-5 pl-5">
+        <section className="container m-auto mt-5 pl-5  ">
             <h2 className="text-4xl font-semibold">Tu Compra</h2>
             <hr />
             <div className="flex ">

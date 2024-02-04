@@ -27,9 +27,9 @@ const Login = () => {
     };
 
     return (
-        <div className="w-full max-w-xs">
+        <div className="w-full max-w-xs container m-auto">
             <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-                <div className="mb-4">
+                <div className="text-4xl  my-3 ">
                     Bienvenido
                     <hr />
                 </div>

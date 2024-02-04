@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { UserContext } from '../context/UserContext'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import Footer from '../component/footer/Footer';
 import Navbar from '../component/navbar/Navbar'
 import ItemNotFound from '../component/itemNotFound/ItemNotFound';
 import HomePage from '../component/homePage/HomePage';
@@ -18,7 +19,7 @@ const AppRouter = () => {
             <Navbar />
 
             {user.logged ? (
-                <Routes>
+                <Routes >
                     <Route path='/' element={<HomePage />} />
                     <Route
                         path="/productos/:categoryId"
@@ -41,7 +42,7 @@ const AppRouter = () => {
                     <Route path="*" element={<Navigate to="/login" />} />
                 </Routes>
             )}
-
+            <Footer />
         </BrowserRouter>
     )
 }
