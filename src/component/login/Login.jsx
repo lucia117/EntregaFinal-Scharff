@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { UserContext } from "../../context/UserContext";
-import IconButton from "../buttons/iconButton";
+import IconButton from "../buttons/IconButton";
 import { FaGoogle, FaRegArrowAltCircleRight } from "react-icons/fa";
 
 
@@ -13,18 +13,6 @@ const Login = () => {
         password: "",
     });
 
-    const handleInputChange = (e) => {
-        setValues({
-            ...values,
-            [e.target.name]: e.target.value,
-        });
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-
-        login(values);
-    };
 
     return (
         <div className="w-full max-w-xs container m-auto">
