@@ -19,7 +19,7 @@ const ItemListContainer = () => {
         // 2.- Construir una referencia a los documentos de la colección 'productos' con ciertos filtros.
 
         const docsRef = categoryId
-            ? query(productosRef, where('categoria', '==', categoryId))
+            ? query(productosRef, where('genero', '==', categoryId))
             : productosRef
 
         // 3.- Llamar a la referencia y obtener los documentos.
@@ -36,7 +36,7 @@ const ItemListContainer = () => {
             })
             .finally(() => setLoading(false))
 
-    }, []) // El efecto se dispara cada vez que cambia el valor de 'categoryId'.
+    }, [categoryId]) // El efecto se dispara cada vez que cambia el valor de 'categoryId'.
 
     return (
         <>

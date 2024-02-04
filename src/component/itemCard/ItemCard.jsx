@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 
 const ItemCard = ({ producto }) => {
 
-    //const id = producto.id
     const { id, nombre, precio, imgUrl } = producto
     // Constantes para rutas y clases
     const itemDetailLink = `/item/${id}`;
@@ -28,6 +27,7 @@ const ItemCard = ({ producto }) => {
                 {/* Precio del Producto */}
                 <span className="text-black font-semibold sm:text-xl">${precio}</span>
             </div>
+
         </Link>
     );
 };

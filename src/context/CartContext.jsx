@@ -23,7 +23,7 @@ export const CartProvider = ({ children }) => {
     }
 
     const totalCart = () => {
-        return cart.reduce((acc, item) => acc + (item.cantidad * item.price), 0)
+        return cart.reduce((acc, item) => acc + (item.cantidad * item.precio), 0)
     }
 
     const removeItem = (id) => {

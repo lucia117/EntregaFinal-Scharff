@@ -6,7 +6,9 @@ function App() {
 
   return (
     <UserProvider>
-      <AppRouter />
+      <CartProvider>
+        <AppRouter />
+      </CartProvider>
     </UserProvider >
   );
 }

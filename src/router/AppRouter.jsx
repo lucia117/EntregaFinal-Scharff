@@ -24,6 +24,10 @@ const AppRouter = () => {
                         path="/productos/:categoryId"
                         element={<ItemListContainer />}
                     />
+                    <Route
+                        path="/productos/:categoryId"
+                        element={<ItemListContainer />}
+                    />
                     <Route path='/item/:itemId' element={<ItemDetailContainer />} />
                     <Route path="/cart" element={<CartView />} />
                     <Route path='/not-found' element={<ItemNotFound />} />

@@ -7,34 +7,33 @@ import { CartContext } from "../../context/CartContext";
 import EmtpyCart from "./EmtpyCart";
 
 const CartView = () => {
-    // const { cart, totalCart, clearCart, removeItem } = useContext(CartContext);
-    //const { cart } = useContext(CartContext);
-
-    console.log("AAAAAAAAAAAA", CartContext)
+    const { cart, totalCart, clearCart, removeItem } = useContext(CartContext);
     const { user } = useContext(UserContext);
+    console.log("CART", totalCart)
 
     if (!user.email) return <h2>No hay usuario registrado</h2>
-    //if (cart.length === 0) return <EmtpyCart />
+    if (cart.length === 0) return <EmtpyCart />
 
 
     return (
         <section className="container m-auto mt-5 pl-5">
-            <p>Bienvenido: </p>
             <h2 className="text-4xl font-semibold">Tu Compra</h2>
             <hr />
             <div className="flex ">
 
                 <div className="w-2/3 ">
                     <ul>
-
-                        <li><ItemCheckout /></li>
-                        <li><ItemCheckout /></li>
+                        {cart.map((item) => (
+                            <li>
+                                <ItemCheckout id={item.id} producto={item} removeItem={removeItem} />
+                            </li>
+                        ))}
 
                     </ul>
                 </div>
                 <div className="w-1/3 mt-3 ">
 
-                    <PurchaseSummary />
+                    <PurchaseSummary total={totalCart} />
 
                 </div>
             </div>

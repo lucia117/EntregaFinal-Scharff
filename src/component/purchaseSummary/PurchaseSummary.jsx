@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom"
 
-const PurchaseSummary = ({ imageUrl, title, price }) => {
+const PurchaseSummary = ({ total }) => {
+    const envio = 1000
+    const precioFinal = total() + envio
+
     return (
         <>
             <div className="flex justify-between text-left ">
@@ -12,11 +15,11 @@ const PurchaseSummary = ({ imageUrl, title, price }) => {
                     <hr />
                     <div className="grid grid-cols-2 mr-7 ml-7">
                         <div className="text-left">Productos</div>
-                        <div className="text-right">$1234</div>
+                        <div className="text-right">${total()}</div>
                         <div className="text-left">Envio</div>
-                        <div className="text-right">$1234</div>
+                        <div className="text-right">${envio}</div>
                         <div className="text-left font-semibold">Total</div>
-                        <div className="text-right mt-1">$1234</div>
+                        <div className="text-right mt-1">${precioFinal}</div>
                     </div>
                     <div className="text-center m-5">
 

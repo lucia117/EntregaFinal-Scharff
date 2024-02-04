@@ -1,9 +1,10 @@
-
-import { useNavigate } from "react-router-dom"
 import { useContext, useEffect, useState } from "react"
+import { Link, useNavigate } from "react-router-dom";
+import { CartContext } from "../../context/CartContext";
 import Size from "../size/Size"
 import Color from "../color/Color"
-import { CartContext } from "../../context/CartContext"
+import Boton from "../buttons/boton";
+
 
 
 const ItemDetail = ({ product }) => {
@@ -11,14 +12,19 @@ const ItemDetail = ({ product }) => {
     const navigate = useNavigate()
     const [cantidad, setCantidad] = useState(1)
     const { addToCart, isInCart } = useContext(CartContext)
-    addToCart(itemToCart)
-
+    const handleImput = (e) => {
+        setCantidad(e.target.value)
+        console.log(cantidad)
+    }
     const handleAgregar = () => {
         const itemToCart = {
-            ...item,
-            cantidad, // => cantidad: cantidad
+            ...product,
+            selected: {
+                color: colorSelec,
+                talle: talleSelect
+            },
+            cantidad,
         }
-
         addToCart(itemToCart)
     }
 
@@ -89,23 +95,20 @@ const ItemDetail = ({ product }) => {
                                         <div className="text-left flex gap-2 w-full">
                                             {/* Quantity Label */}
                                             <label className="font-thin">Cantidad: </label>
-                                            <input className="border border-gray-300 text-sm mb-1 outline-none rounded-md m-0  md:py-1 md:px-2 md:mb-0" type="number" defaultValue="1" required />
+                                            <input onChange={handleImput} className="border border-gray-300 text-sm mb-1 outline-none rounded-md m-0  md:py-1 md:px-2 md:mb-0" type="number" defaultValue="1" required />
                                             <label className="font-thin">Disponible: {stockSelect}</label>
                                         </div>
                                     </div>
-                                    {/*     {
-                                        isInCart(id)
-                                            ? <Boton><Link to="/cart">Terminar mi compra</Link></Boton>
-                                            : <Boton onClick={handleAgregar} disabled={stock === 0}>Agregar al carrito</Boton>
-                                    } */}
-                                    {/* Quantity Input and Order Button */}
                                     <div className=" ">
                                         <div className="text-center flex flex-col gap-2 w-full">
                                             {/* Buy button */}
-                                            <button className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-800">
-                                                Agregar al carrito
-                                            </button>
 
+                                            {
+                                                isInCart(product.id)
+                                                    ? <Boton><Link to="/cart">Terminar mi compra</Link></Boton>
+                                                    : <Boton onClick={handleAgregar} disabled={product.stock === 0}>Agregar al carrito</Boton>
+
+                                            }
                                         </div>
                                     </div>
                                 </div>
@@ -119,6 +122,4 @@ const ItemDetail = ({ product }) => {
     )
 }
 
-
 export default ItemDetail
-
