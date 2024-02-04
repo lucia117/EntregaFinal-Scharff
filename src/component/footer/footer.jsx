@@ -1,4 +1,4 @@
-const Footer = () => {
+function Footer() {
     return (
         <footer className="flex w-full gap-x-12 border-t border-blue-gray-50 py-6 ">
             <div className=" m-auto">
