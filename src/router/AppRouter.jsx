@@ -1,7 +1,6 @@
 import { useContext } from "react";
 import { UserContext } from '../context/UserContext'
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Footer from '../component/footer/Footer'
 import Navbar from '../component/navbar/Navbar'
 import ItemNotFound from '../component/itemNotFound/ItemNotFound';
 import HomePage from '../component/homePage/HomePage';
